@@ -1,16 +1,11 @@
 import streamlit as st
+import pandas as pd
+from collections import Counter
 import random
-
-class RandomGenerator():
-    def __init__(self):
-        self.db = "database.db"
-
-    def add_quote(self):
-        pass
 
 class ShowWeb():
     def __init__(self):
-        pass
+        self.file = "quotes.csv"
 
     def show_quote(self):
         st.markdown(
@@ -19,8 +14,33 @@ class ShowWeb():
         "</div>",
         unsafe_allow_html=True)
 
-    def show_form(self):
-        pass
+        df = pd.read_csv("quotes.csv", sep=";")
+        list_of_lists = df.values.tolist()
+        rd = random.choice(list_of_lists)
+
+        title = rd[0]
+        quote = rd[1]
+        page = rd[2]
+
+        st.markdown(
+        "<div style='text-align: center;'>"
+        f"<h4>{title}</h4>"
+        "</div>",
+        unsafe_allow_html=True)
+
+        st.markdown(
+        "<div style='text-align: center;'>"
+        f"<h2>'{quote}'</h2>"
+        "</div>",
+        unsafe_allow_html=True)
+
+        st.markdown(
+        "<div style='text-align: right;'>"
+        f"<p>- {page}</p>"
+        "</div>",
+        unsafe_allow_html=True)
+
+        st.button("New Quote")
 
 if __name__ == "__main__":
     show_web = ShowWeb()
