@@ -30,20 +30,20 @@ body {
 }
 
 .header > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: "Bitcount Grid Double", system-ui;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .content {
     height: 25vh;
-    background-color: #F7FFF6;
     text-align: center;
     padding: 2rem;
+    overflow-y: scroll;
 }
 
 .content > h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .footer {
@@ -62,7 +62,8 @@ body {
 }
 
 .button-container > button {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     padding: 1.5rem 3rem 2rem 3rem;
     font-family: sans-serif;
     font-weight: bolder;

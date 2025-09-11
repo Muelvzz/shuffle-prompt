@@ -72,5 +72,5 @@ const promptEl = document.querySelector("#question")
 buttonEl.addEventListener("click", function() {
     let randomNumber = Math.floor(Math.random() * prompts.length + 1)
     
-    promptEl.textContent = `" ${prompts[randomNumber]} "`
+    promptEl.textContent = prompts[randomNumber]
 })
