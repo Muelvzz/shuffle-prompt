@@ -13,7 +13,14 @@ const prompts = [
   "How can you use complaints of 'void' as opportunities to build something valuable?",
   "How should you gracefully handle exploitative complainers while protecting your focus?",
   "How might trying to please everyone be holding back your success?",
-  "Which complaints could you solve that would create the most value and help the most people?"
+  "Which complaints could you solve that would create the most value and help the most people?",
+  "What would it look like to quit something peacefully and confidently because it no longer feels right for you?",
+  "What do you need to quit in order to start something new that aligns with your current self?",
+  "How do you personally define the difference between education and schooling?",
+  "What systems of discipline can you build so your progress doesn’t depend on fleeting motivation?",
+  "How can you use pain or discomfort as fuel for meaningful change?",
+  "How might hitting rock bottom be an opportunity for transformation rather than defeat?",
+  "What limiting beliefs from your childhood might still be influencing your current behavior?"
 ];
 
 
