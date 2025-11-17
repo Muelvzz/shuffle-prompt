@@ -1,5 +1,13 @@
 const prompts = [
   "How can you test your business idea by putting it out into the world instead of overplanning?",
+  "What experiments can you run knowing that big winners pay for many attempts?",
+  "How can you embrace failure and practice as the path to building your skills?",
+  "What bold offer could you create that has the potential to be your grand-slam win?",
+  "Who believed in you early on, and how did that shape your journey?",
+  "How can you craft an offer so good that people would feel foolish saying no?",
+  "What’s the difference between your passion for your business and actually knowing how to succeed in it?",
+  "How can you improve the value exchange in your business so customers feel they get more than they pay for?",
+  "What recent failure can you analyze deeply so you understand it better than any accidental success?",
   "What signs is the world giving you right now about the direction you should take?",
   "What executed idea could you release today and let the world give you feedback on?",
   "How can you turn your business plan into real-world execution?",
