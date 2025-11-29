@@ -4,7 +4,8 @@ const prompts = [
   'What have you learned?',
   'What forces have you compounded?',
   'How many decisions are you making daily, that are part of a process?',
-  'What do you see in people which makes you instantly not trust them?'
+  'What do you see in people which makes you instantly not trust them?',
+  'What is your daily highlight?'
 ];
 
 
