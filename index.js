@@ -32,7 +32,8 @@ const prompts = [
   'What would you do if you could stop time for two months?',
   'Who is the most difficult person in your life and why?',
   'Write about something that you would like to let go of.',
-  'Who are your role models in your life and why?'
+  'Who are your role models in your life and why?',
+  'What would you advise to yourself five years ago?',
 ];
 
 
