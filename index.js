@@ -34,6 +34,7 @@ const prompts = [
   'Write about something that you would like to let go of.',
   'Who are your role models in your life and why?',
   'What would you advise to yourself five years ago?',
+  'What is your universal motto in life?'
 ];
 
 
@@ -41,7 +42,7 @@ const buttonEl = document.querySelector("#new-question-el")
 const promptEl = document.querySelector("#question")
 
 buttonEl.addEventListener("click", function() {
-    let randomNumber = Math.floor(Math.random() * prompts.length + 1)
+    let randomNumber = Math.floor(Math.random() * prompts.length)
     
     promptEl.textContent = prompts[randomNumber]
 })
