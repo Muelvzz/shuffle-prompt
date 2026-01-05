@@ -36,7 +36,8 @@ const prompts = [
   'Who are your role models in your life and why?',
   'What would you advise to yourself five years ago?',
   'What is your universal motto in life?',
-  'In three words, what will you hope that someone will say about you?'
+  'In three words, what will you hope that someone will say about you?',
+  'How many times have you said NO to something and what did you feel afterwards?'
 ];
 
 
