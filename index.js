@@ -38,7 +38,8 @@ const prompts = [
   'What is your universal motto in life?',
   'In three words, what will you hope that someone will say about you?',
   'How many times have you said NO to something and what did you feel afterwards?',
-  'Who do you usually follow online and why?'
+  'Who do you usually follow online and why?',
+  'If you had all of the money in the world, what would be the first you will be doing?',
 ];
 
 
