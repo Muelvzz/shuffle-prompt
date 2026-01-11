@@ -40,6 +40,7 @@ const prompts = [
   'How many times have you said NO to something and what did you feel afterwards?',
   'Who do you usually follow online and why?',
   'If you had all of the money in the world, what would be the first you will be doing?',
+  'How do you handle failures?'
 ];
 
 
